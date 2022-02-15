@@ -6,21 +6,40 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
+Start.
 
-### Step 2: 
- 
-### Step 3: 
+### Step 2:
+Open the first file in read mode by an appropriate method.
 
-### Step 4:  
+### Step 3:
+Open the Second file in write mode by an appropriate method.
 
-### Step 5: 
+### Step 4:
+Loop until a variable 'i' in the first file.so Variable i propagates all over the content.
 
-### Step 6: 
+### Step 5:
+Write the value of 'i'in the second file by following method.SecondfileName.write(i)
+
+### Step 6:
+Stop
 
 ## PROGRAM:
-
+```
+#Develpoed By:Vivek reddy
+#Reference No:21004190
+with open('first.txt','r') as firstfile, open('second.txt','a') as secondfile:
+       # read content from first file
+    for line in firstfile:
+               
+        # append content to second file
+             secondfile.write(line)
+```
 ### OUTPUT:
+![git logo](k1.png)
 
+![git logo](k2.png)
+
+![git logo](k3.png)
 
 
 ## RESULT:
